@@ -62,7 +62,7 @@ def broken_link_gui(root):
     Label(root, text="Broken Links Found", font=("Cascadia Mono Semibold",14),foreground="#6cd656",background="#010c25").place(x=10, y=150)
 
     
-    result_text = Text(root, width=37, height=10, wrap=WORD,bg="#6cd656", relief=SUNKEN,font=("Terminal"))
+    result_text = Text(root, width=37, height=10, wrap=WORD,bg="#6cd656", relief=SUNKEN,font=("Terminal"),state=DISABLED)
     result_text.place(x=10, y=190)
 
     
