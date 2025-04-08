@@ -2,3 +2,6 @@
 ## alternatively,
 # Bundle the file into an exe application as mentioned below using PyInstaller
 ### https://pyinstaller.org/en/stable/usage.html
+# or else
+# pip install pyinstaller
+# pyinstaller CyberBuddy.py --noconsole
